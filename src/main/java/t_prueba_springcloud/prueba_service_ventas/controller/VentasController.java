@@ -11,7 +11,10 @@ public class VentasController {
 
     private ServiceOrdenClient serviceOrdenClient;
 
-
+    @GetMapping("/monto")
+    public String consultarMonto() {
+        return "Respuesta Del Servicio De Ventas - Monto";
+    }
 
 
 
