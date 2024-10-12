@@ -16,6 +16,11 @@ public class VentasController {
         return "Respuesta Del Servicio De Ventas - Monto";
     }
 
+    @GetMapping("/detalle")
+    public String consultarDetalle() {
+        return "Respuesta Del Servicio De Ventas - Detalle";
+    }
+
 
 
 
