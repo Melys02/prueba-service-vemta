@@ -21,7 +21,10 @@ public class VentasController {
         return "Respuesta Del Servicio De Ventas - Detalle";
     }
 
-
+    @GetMapping("/monto-orden")
+    public String consultarMontoOrden() {
+        return serviceOrdenClient.consultarOrden();
+    }
 
 
 }
